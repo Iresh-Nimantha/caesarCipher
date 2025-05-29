@@ -40,8 +40,25 @@ void initQueue(char queue[]) {
 
         //user chose encryption
         if (choice == 'E' || choice == 'e') {  
-            output[i] = encryptChar(ch, key, queue);}
+            output[i] = encryptChar(ch, key, queue);
+} else if (choice == 'D' || choice == 'd') {
+            output[i] = decryptChar(ch, key, queue);
+        } else {
+            printf("Invalid choice.\n");
+            return 1;
+        }
+    }
+    output[strlen(msg)] = '\0';
 
+    // outPUT
+    printf("*****************************\n");
+    if (choice == 'E' || choice == 'e')
+        printf("Encrypted Message: %s\n", output);
+    else
+        printf("Original Message: %s\n", output);
+
+    return 0;
+}
             // Initialize letter of key
 int findIndex(char ch, char queue[]) {
     for (int i = 0; i < SIZE; i++) {
@@ -63,4 +80,10 @@ char encryptChar(char ch, int key, char queue[]) {
         return isupper(ch) ? encrypted : tolower(encrypted);
     }
     return ch; 
+}
+
+
+// Shift letters to decryption - backward
+char decryptChar(char ch, int key, char queue[]) {
+    return encryptChar(ch, -key, queue);
 }
