@@ -14,8 +14,6 @@ int main() {
     initQueue(queue);
 
 
-    }
-}
    //// Asking from user if they want to encrypt or decrypt
     printf("Encryption (E) or Decryption (D)?: ");
     scanf(" %c", &choice); 
@@ -61,6 +59,8 @@ void initQueue(char queue[]) {
     for (int i = 0; i < SIZE; i++) {
         queue[i] = 'A' + i;
 
+    }
+}
 
 
             // Initialize letter of key
