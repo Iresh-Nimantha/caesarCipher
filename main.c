@@ -13,13 +13,7 @@ int main() {
     // Call the function
     initQueue(queue);
 
-// For testing print the queue
 
-void initQueue(char queue[]) {
-    for (int i = 0; i < SIZE; i++) {
-        queue[i] = 'A' + i;
-    }
-}
    //// Asking from user if they want to encrypt or decrypt
     printf("Encryption (E) or Decryption (D)?: ");
     scanf(" %c", &choice); 
@@ -59,6 +53,16 @@ void initQueue(char queue[]) {
 
     return 0;
 }
+
+// For testing print the queue
+void initQueue(char queue[]) {
+    for (int i = 0; i < SIZE; i++) {
+        queue[i] = 'A' + i;
+
+    }
+}
+
+
             // Initialize letter of key
 int findIndex(char ch, char queue[]) {
     for (int i = 0; i < SIZE; i++) {
