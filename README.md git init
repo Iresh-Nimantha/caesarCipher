@@ -4,9 +4,9 @@ A simple and effective Caesar Cipher implementation in Python for encoding and d
 
 ## 🚀 Features
 
-- **Encode messages**: Shift letters by a fixed number to encrypt.
-- **Decode messages**: Reverse-shift to decrypt messages.
-- **Custom shift value**: Choose how many positions to shift.
+- **Encode messages:** Shift letters by a fixed number to encrypt.
+- **Decode messages:** Reverse-shift to decrypt messages.
+- **Custom shift value:** Choose how many positions to shift.
 - **Handles uppercase and lowercase letters**
 - **Ignores non-alphabetic characters** (punctuation, spaces, numbers remain unchanged)
 - **Simple, clean, and well-documented code**
@@ -47,10 +47,10 @@ caesarCipher/
 
 ## 🧑‍💻 API Reference
 
-| Function        | Description                              |
-|-----------------|------------------------------------------|
-| `encode(text, shift)` | Returns an encoded string with letters shifted by the specified amount. |
-| `decode(text, shift)` | Returns the original string by reverse-shifting letters. |
+| Function             | Description                                                        |
+|----------------------|--------------------------------------------------------------------|
+| `encode(text, shift)`| Returns an encoded string with letters shifted by the given amount. |
+| `decode(text, shift)`| Returns the original string by reverse-shifting letters.           |
 
 ## ⚡ Example
 
@@ -81,15 +81,16 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 🤝 Contributing
 
-1. Fork the repo
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Fork the repo  
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)  
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)  
+4. Push to the branch (`git push origin feature/AmazingFeature`)  
+5. Open a Pull Request  
 
 ## 📧 Contact
 
 Created by [Iresh Nimantha](https://github.com/Iresh-Nimantha) – feel free to get in touch!
 
 ---
-Give this repo a ⭐️ if you found it useful!
+
+⭐️ **Give this repo a star if you found it useful!**
