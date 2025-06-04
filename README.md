@@ -87,10 +87,5 @@ This project is licensed under the [MIT License](LICENSE).
 4. Push to the branch (`git push origin feature/AmazingFeature`)  
 5. Open a Pull Request  
 
-## 📧 Contact
-
-Created by [Iresh Nimantha](https://github.com/Iresh-Nimantha) – feel free to get in touch!
-
----
 
 ⭐️ **Give this repo a star if you found it useful!**
